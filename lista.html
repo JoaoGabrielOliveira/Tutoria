@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina Principal</title>
+</head>
+<body>
+    <input type="text" id='nome' name='nome' />
+    <button onclick="addLista()">Adicionar</button>
+
+    <ol id='lista'>
+        <li>Primeiro item</li>
+    </ol>
+
+    <button onclick="removeLista()">Limpar Lista</button>
+    <script>
+        function addLista()
+        {
+            var input = document.getElementById('nome');
+            var lista = document.querySelector('ul');
+
+            lista.innerHTML +="<li id='"+ i +"' >" + input.value + "</li>";
+
+            i++;
+        }
+
+
+        function removeLista()
+        {
+            var lista = document.getElementById('lista');
+
+            lista.innerHTML = '';
+        }
+    </script>
+</body>
+</html>
