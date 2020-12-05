@@ -1,0 +1,21 @@
+/*
+color: <nome da cor em ingles>
+font-size: <tamanho da fonte em px>
+font-family: <nome da fonte>
+background: <nome da cor em>
+*/
+
+
+body {
+	background:yellow;
+}
+
+
+h3 {
+	color: black;
+	font-size: 50px;
+}
+div h3 {
+	color: blue;
+	font-size:20px;
+}
