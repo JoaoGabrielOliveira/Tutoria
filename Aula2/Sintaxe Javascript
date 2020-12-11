@@ -1,0 +1,39 @@
+/*Sintaxe Javascript
+
+Todo comando precisa ter ponto e virgula (;) no final.
+    Através do ponto e virgula é que interpretador do Javascript sabe que é o fim de determinado comando ou ação.
+
+Declarar variavéis:
+    No Javascriptn usamos a palavra *var* pra declarar variaveis.
+    Depois do var, damos um nome a variavel e finalmente, ponto e virgula.
+    Exemplo:
+        var vNome;
+
+    As variaveis são espaços na memoria para guardamos algum valor, guardar alguma informação ou dado.
+    Assim, podemos colocar algum valor dentro das nossas variaveis, da seguinte forma
+    Escrevemos o nome da variavel, depois colocamos o sinal de igual, um colocamos um valor e ponto e virgula.
+        Exemplo:
+            vNome = 'Joaquim';
+            vNumero = 10
+
+Valores que podemos colocar nas variaveis
+    Como já falamos em nossas aulas de lógica de programação, existe uma coisa chama "Tipo de dados"
+    Exemplo, temos um tipo de dado para trabalhar com textos (string), com numeros(int) e com numeros com virgula (float)
+    Nas linguagens de programação, quando queremos escrever um texto (string), usamos as aspas ("). Tudo que está dentro das aspas, se torna um texto
+        Exemplo:
+            "Olá mundo" -> isso é um texto
+            "Jonathan"  -> isso é um texto
+            'Bom dia'   -> isso é um texto
+            Ola         -> Isso não é um texto
+            10          -> Isso não é um texto
+            "10"        -> Isso é um texto
+
+    Diferença entre o 10 e o "10"
+    Como já dito, tudo que está dentro de aspas, tudo se torna texto, se torna string
+    Dessa forma, uma vairavel que tenha o valor "10" vai ser do tipo string.
+    Qualquer caracter numerico que não esteja dentro de aspas, é do tipo númerico.
+        Exemplo:*/
+            var vVariavel0 = "10";  //É uma string
+            var vVariavel1 = 10;  //É um número
+
+    Contatenalção de Strings
