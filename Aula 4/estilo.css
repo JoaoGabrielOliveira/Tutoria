@@ -1,0 +1,34 @@
+#titulo
+{
+    background: red;
+}
+
+#titulo h1
+{
+    font-size: 70px;
+}
+
+.artigo
+{
+    border: 5px solid black;
+    margin: 20px;
+    padding: 10px;
+    color:green;
+}
+
+.artigo p
+{
+    color:black;
+}
+
+.vermelho
+{
+    background: red;
+    color:white;
+}
+
+.azul
+{
+    background: blue;
+    color:white;
+}
