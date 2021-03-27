@@ -1,0 +1,27 @@
+.entrada
+{
+    border: 2px solid #00c3ff;
+}
+
+.entrada:hover
+{
+    border: 2px solid #3cff00;
+}
+
+.entrada:focus
+{
+    border: 1px solid #3cff00;
+    background: #3cff00;
+    color:aliceblue;
+}
+
+.entrada:active
+{
+    background: red;
+}
+
+.entrada:checked
+{
+    width: 50px;
+    height: 50px;
+}

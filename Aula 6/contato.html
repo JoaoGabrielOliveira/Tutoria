@@ -1,0 +1,37 @@
+<html>
+    <head>
+        <title>Contato</title>
+        <link rel="stylesheet" href="estilo.css" />
+
+        <script>
+            //function nome da função () {}
+            function enviarEmail()
+            {
+                // " " ou ' '
+                //console.log("Mensagem foi enviada!");
+                alert("Mensagem foi enviada");
+                //document.write("Mensagem foi enviada!");
+            }
+        </script>
+    </head>
+     
+
+    <body>
+        <h1>Contato</h1>
+        
+        <form>
+            <p>Nome: <input class="entrada" type="text" /></p>
+
+            <p>Email: <input class="entrada" type="email" /></p>
+
+            <p>Mensagem: <textarea class="entrada"></textarea></p>
+
+            <p>Deseja receber novas informação? <input class="entrada" type="checkbox" /></p>
+
+            <p>
+                <input onclick="enviarEmail()" on  class="entrada" type="submit" value="Enviar mensagem"/>
+            </p>
+        </form>
+
+    </body>
+</html>
